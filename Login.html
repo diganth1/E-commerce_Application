@@ -1,0 +1,38 @@
+<!--<?php session_start(); ?> -->
+<html>
+<head> Welcome </head>
+<body>
+<form action="loginPage.php" method="post" target = "_top">
+<table>
+<tr>
+<td>User ID:</td>
+<td><input type = "text" name = "UserId" required></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="password" name = "Password" required></td>
+</tr>
+</table>
+<input type="submit" name = "Login" value = "Login"><input type="reset" name="Reset" value = "Reset">
+</form>
+<form action = "CustReg.html" target="iframe_a" method="post">
+<table>
+<tr>
+<td>Or Register</td>
+<td><input type="submit" name = "Register" value = "Register"></td>
+</tr>
+</table>
+</form>
+<table width="50%">
+<tr><th align="left">Services</th><th align="left">for..</th></tr>
+<tr><td><ul><li>Place Order</li><li>Enroll</li><li>Edit Profile</li><li>Propose Product</li></ul></td>
+<td>Customer</td></tr>
+<tr><td><ul><li>Upgrade Customer</li><li>Release Offer</li></ul></td>
+<td>Customer Relationship Manager</td></tr>
+<tr><td><ul><li>Launch Product</li><li>Retire Product</li></ul></td>
+<td>Product Manager</td></tr>
+<tr><td><ul><li>Analyse Proposals</li><li>Procure Product</li><li>Clear Orders</li></ul></td>
+<td>Order Manager</td></tr>
+</table>
+</body>
+</html>

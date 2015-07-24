@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title><font color ='seashell'>Upgrade Customer</font></title>
+</head>
+
+<body style = 'color:seashell;'>
+
+<h2>Upgrade Customer page </h2>
+<form action="upgradeCust.php" target="iframe_c" method="post">
+<table>
+<tr>
+<td>Customer Type:</td>
+<td><select name="Type" required>
+<option value="S">Silver</option>
+<option value="G">Gold</option>
+<option value="P">Platinum</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Starting From Date:</td> 
+<td><input type="date" name="FromDate" required></td>
+</tr>
+<tr>
+<td>Till Date:</td> 
+<td><input type="date" name="TillDate" required></td>
+</tr>
+<tr>
+<td>Amount Purchased:</td> 
+<td><input type="text" name="AmountPurchased" required></td>
+</tr>
+</table>
+<input type="submit" name="Upgrade" value = "Upgrade"><input type="reset" name="Reset" value = "Clear Form">
+</form>
+</body>
+</html>
